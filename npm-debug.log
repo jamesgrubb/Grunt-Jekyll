@@ -1,0 +1,190 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'bower-installer' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'bower-installer', null ]
+5 verbose cache add name=undefined spec="bower-installer" args=["bower-installer",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'bower-installer',
+6 verbose parsed url   path: 'bower-installer',
+6 verbose parsed url   href: 'bower-installer' }
+7 silly lockFile e75a97de-bower-installer bower-installer
+8 verbose lock bower-installer /Users/makingthings/.npm/e75a97de-bower-installer.lock
+9 silly lockFile e75a97de-bower-installer bower-installer
+10 silly lockFile e75a97de-bower-installer bower-installer
+11 verbose addNamed [ 'bower-installer', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 8dda27d5-bower-installer bower-installer@
+14 verbose lock bower-installer@ /Users/makingthings/.npm/8dda27d5-bower-installer.lock
+15 silly addNameRange { name: 'bower-installer', range: '*', hasData: false }
+16 verbose request where is /bower-installer
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id a1e925f5df57b107
+19 verbose url raw /bower-installer
+20 verbose url resolving [ 'https://registry.npmjs.org/', './bower-installer' ]
+21 verbose url resolved https://registry.npmjs.org/bower-installer
+22 verbose request where is https://registry.npmjs.org/bower-installer
+23 info trying registry request attempt 1 at 17:24:26
+24 http GET https://registry.npmjs.org/bower-installer
+25 http 200 https://registry.npmjs.org/bower-installer
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Mon, 27 Oct 2014 17:24:26 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"8FIDPKVU88PLZYPJ09WQ16WGC"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '40794',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-lcy1121-LCY',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1414430666.457776,VS0,VE150',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'bower-installer', range: '*', hasData: true }
+28 silly addNameRange versions [ 'bower-installer',
+28 silly addNameRange   [ '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.0.5',
+28 silly addNameRange     '0.0.6',
+28 silly addNameRange     '0.0.7',
+28 silly addNameRange     '0.0.8',
+28 silly addNameRange     '0.0.9',
+28 silly addNameRange     '0.0.10',
+28 silly addNameRange     '0.0.11',
+28 silly addNameRange     '0.1.0',
+28 silly addNameRange     '0.1.2',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '0.4.2',
+28 silly addNameRange     '0.4.3',
+28 silly addNameRange     '0.4.4',
+28 silly addNameRange     '0.4.5',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.6.2',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '0.8.0',
+28 silly addNameRange     '0.8.1',
+28 silly addNameRange     '0.8.2',
+28 silly addNameRange     '0.8.3',
+28 silly addNameRange     '0.8.4' ] ]
+29 verbose addNamed [ 'bower-installer', '0.8.4' ]
+30 verbose addNamed [ '0.8.4', '0.8.4' ]
+31 silly lockFile ed1d732b-bower-installer-0-8-4 bower-installer@0.8.4
+32 verbose lock bower-installer@0.8.4 /Users/makingthings/.npm/ed1d732b-bower-installer-0-8-4.lock
+33 silly lockFile 7e28e2fe-taller-bower-installer-0-8-4-tgz https://registry.npmjs.org/bower-installer/-/bower-installer-0.8.4.tgz
+34 verbose lock https://registry.npmjs.org/bower-installer/-/bower-installer-0.8.4.tgz /Users/makingthings/.npm/7e28e2fe-taller-bower-installer-0-8-4-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/bower-installer/-/bower-installer-0.8.4.tgz',
+35 verbose addRemoteTarball   'f24ff11df1e5d38a294073bf03527fd2f348c1e3' ]
+36 info retry fetch attempt 1 at 17:24:26
+37 verbose fetch to= /var/folders/zg/361jmknx7qv3bbkty9x8587m0000gn/T/npm-23814-C-ZM7TvE/registry.npmjs.org/bower-installer/-/bower-installer-0.8.4.tgz
+38 http GET https://registry.npmjs.org/bower-installer/-/bower-installer-0.8.4.tgz
+39 http 200 https://registry.npmjs.org/bower-installer/-/bower-installer-0.8.4.tgz
+40 silly lockFile 7e28e2fe-taller-bower-installer-0-8-4-tgz https://registry.npmjs.org/bower-installer/-/bower-installer-0.8.4.tgz
+41 silly lockFile 7e28e2fe-taller-bower-installer-0-8-4-tgz https://registry.npmjs.org/bower-installer/-/bower-installer-0.8.4.tgz
+42 silly lockFile ed1d732b-bower-installer-0-8-4 bower-installer@0.8.4
+43 silly lockFile ed1d732b-bower-installer-0-8-4 bower-installer@0.8.4
+44 silly lockFile 8dda27d5-bower-installer bower-installer@
+45 silly lockFile 8dda27d5-bower-installer bower-installer@
+46 silly resolved [ { name: 'bower-installer',
+46 silly resolved     version: '0.8.4',
+46 silly resolved     preferGlobal: 'true',
+46 silly resolved     description: 'Tool for installing bower dependencies that won\'t include entire repos',
+46 silly resolved     main: 'bower-installer.js',
+46 silly resolved     dependencies:
+46 silly resolved      { 'node-fs': '~0.1.7',
+46 silly resolved        bower: '~1.3.8',
+46 silly resolved        colors: '~0.6.0-1',
+46 silly resolved        lodash: '~0.9.1',
+46 silly resolved        glob: '~3.2.7',
+46 silly resolved        nopt: '~2.1.2',
+46 silly resolved        async: '~0.2.9',
+46 silly resolved        mkdirp: '~0.3.5' },
+46 silly resolved     engines: { node: '>=0.10.0' },
+46 silly resolved     devDependencies:
+46 silly resolved      { grunt: '~0.4.2',
+46 silly resolved        'grunt-jasmine-node': '0.2.1',
+46 silly resolved        async: '~0.2.9',
+46 silly resolved        rimraf: '~2.2.2' },
+46 silly resolved     scripts: { test: 'grunt' },
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'https://github.com/blittle/bower-installer' },
+46 silly resolved     keywords: [ 'bower', 'install', 'dependencies' ],
+46 silly resolved     author: { name: 'Bret Little' },
+46 silly resolved     license: 'BSD',
+46 silly resolved     bin: { 'bower-installer': './bower-installer.js' },
+46 silly resolved     bugs: { url: 'https://github.com/blittle/bower-installer/issues' },
+46 silly resolved     _id: 'bower-installer@0.8.4',
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'f24ff11df1e5d38a294073bf03527fd2f348c1e3',
+46 silly resolved        tarball: 'http://registry.npmjs.org/bower-installer/-/bower-installer-0.8.4.tgz' },
+46 silly resolved     _from: 'bower-installer@',
+46 silly resolved     _resolved: 'https://registry.npmjs.org/bower-installer/-/bower-installer-0.8.4.tgz',
+46 silly resolved     gitHead: 'd1504cb8fd45ab68d56ffc70a0690a4ac532b11b',
+46 silly resolved     homepage: 'https://github.com/blittle/bower-installer',
+46 silly resolved     _shasum: 'f24ff11df1e5d38a294073bf03527fd2f348c1e3',
+46 silly resolved     _npmVersion: '1.4.14',
+46 silly resolved     _npmUser: { name: 'blittle', email: 'bret.little@gmail.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     directories: {} } ]
+47 info install bower-installer@0.8.4 into /usr/local/lib
+48 info installOne bower-installer@0.8.4
+49 verbose lib/node_modules/bower-installer unbuild
+50 verbose tar unpack /Users/makingthings/.npm/bower-installer/0.8.4/package.tgz
+51 silly lockFile 8cdb7d17-lib-node-modules-bower-installer tar:///usr/local/lib/node_modules/bower-installer
+52 verbose lock tar:///usr/local/lib/node_modules/bower-installer /Users/makingthings/.npm/8cdb7d17-lib-node-modules-bower-installer.lock
+53 silly lockFile 319f73a0-ower-installer-0-8-4-package-tgz tar:///Users/makingthings/.npm/bower-installer/0.8.4/package.tgz
+54 verbose lock tar:///Users/makingthings/.npm/bower-installer/0.8.4/package.tgz /Users/makingthings/.npm/319f73a0-ower-installer-0-8-4-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/bower-installer'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/bower-installer']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/bower-installer',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/bower-installer',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 13.4.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "bower-installer"
+60 error cwd /Users/makingthings/Dropbox/Sites/Grunt-Jekyll
+61 error node -v v0.10.32
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/bower-installer
+64 error fstream_path /usr/local/lib/node_modules/bower-installer
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/bower-installer'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
