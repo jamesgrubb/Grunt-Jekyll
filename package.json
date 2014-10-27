@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "load-grunt-config": "^0.14.0",
     "load-grunt-tasks": "^1.0.0"
   }
 }
